@@ -1,0 +1,18 @@
+package lc216.combinationsum;
+
+public class CombinationSum {
+
+	public List<List<Integer>> combinationSum3(int k, int n) {
+        
+		auxCombination(0,k,n);
+    }
+
+	private void auxCombination(int start, int k, int sum) {
+		
+		for(i=start;i<=9;++i){			
+			auxCombination(i+1, k-1, sum-i);
+		}
+		
+	}
+	
+}

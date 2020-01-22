@@ -1,0 +1,46 @@
+package lc90.subsetsduplicate;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+class Solution {
+	Set<List<Integer>> sout=new HashSet();
+	List<List<Integer>> out=new ArrayList<List<Integer>>();
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
+    	
+    	Arrays.sort(nums);
+    	List input=new ArrayList();
+    	for(int x: nums) {
+    		input.add(x);
+    	}
+    	auxFindSubsets(input, new ArrayList());
+    	for(List l: sout) {
+    		out.add(l);
+    	}
+		return out;
+        
+    }
+
+	private void auxFindSubsets(List input,List subset) {
+		
+		if(input.size()==0) {
+			List tmpsubset=new ArrayList(subset);
+			sout.add(tmpsubset);
+			//System.out.println(tmpsubset);
+			return;
+		}
+		
+		for(int i=0;i<1;++i) {					
+			int x=(int) input.remove(i);		
+			subset.add(x);
+			auxFindSubsets(input,subset);
+			subset.remove(subset.size()-1);
+			auxFindSubsets(input,subset);
+			input.add(0, x);
+		}
+		
+	}
+}

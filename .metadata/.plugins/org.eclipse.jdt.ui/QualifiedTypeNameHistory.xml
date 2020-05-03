@@ -5,11 +5,19 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.multithreading.producerconsumer.Producer"/>
 <fullyQualifiedTypeName name="com.multithreading.producerconsumer.Resource"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="leetcode.correctparanthesis.CorrectParanthesis"/>
 <fullyQualifiedTypeName name="com.datastructures.graphs.Bipartite"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="lc138.cloneusingrandompointers.Solution"/>
+<fullyQualifiedTypeName name="lc208.trieimplementation.Trie"/>
+<fullyQualifiedTypeName name="lc208.trieimplementation.Trie.TSTNode"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="trieImplementation.Trie"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lc208.trieimplementation.Solution.java&apos; to &apos;Trie.java&apos;&#x0D;&#x0A;- Original project: &apos;Trie&apos;&#x0D;&#x0A;- Original element: &apos;lc208.trieimplementation.Solution.java&apos;&#x0D;&#x0A;- Renamed element: &apos;lc208.trieimplementation.Trie.java&apos;" description="Rename compilation unit &apos;Solution.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;lc208.trieimplementation{Solution.java" name="Trie.java" references="false" stamp="1582092326273" version="1.0"/>
+</session>
